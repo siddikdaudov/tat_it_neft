@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.textArea {
+  height: 150px;
+  padding: 12px 20px;
+  border: 1px solid rgba(0, 0, 255, 0.5);
+  background-color: #f8f8f8;
+  resize: none;
+  outline: none;
+}

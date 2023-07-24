@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.author,
+.theme {
+  color: #a8b806;
+}
+
+.date {
+  margin-left: auto;
+  font-size: 14px;
+  background-color: #4d86b2;
+  padding: 3px 7px;
+  color: white;
+}
+
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+	margin-top: 10px;
+}

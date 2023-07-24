@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  outline: none;
+  border: none;
+  padding: 20px;
+  background-color: white;
+  z-index: 1;
+}
+
+.backdrop {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+}
+
+.close {
+  background-color: red;
+  color: white;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}

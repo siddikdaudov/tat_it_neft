@@ -1,0 +1,12 @@
+.comment {
+  display: flex;
+  align-items: start;
+  column-gap: 10px;
+}
+
+.comment span {
+  min-width: 25px;
+  min-height: 25px;
+  background-color: #ff4800;
+  border-radius: 100%;
+}
